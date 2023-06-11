@@ -1,0 +1,25 @@
+{
+  "small_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "selected_tool_panel@common.selected_tool_panel": {}
+        }
+      }
+    ]
+  },
+
+  "large_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "selected_tool_panel@common.selected_tool_panel": {}
+        }
+      }
+    ]
+  }
+}

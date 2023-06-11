@@ -1,0 +1,27 @@
+// __multiversion__
+// Part of Fused Vanilla Shaders
+#if __VERSION__ >= 300
+
+#define varying in
+#define texture2D texture
+out vec4 FragColor;
+#define gl_FragColor FragColor
+
+#else
+
+#endif
+
+varying vec4 color;
+
+uniform vec4 CURRENT_COLOR;
+uniform highp float TIME;
+
+void main()
+{
+	
+	vec4 stars = color;
+stars.r = max(stars.r, 6.0);
+stars.g = max(stars.g, 6.0);
+stars.b = max(stars.b, 6.0);
+gl_FragColor = vec4(color.rgb * vec3(CURRENT_COLOR.r,CURRENT_COLOR.g*2.3,CURRENT_COLOR.b*2.7), color.a)*stars;
+}

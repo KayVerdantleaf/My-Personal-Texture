@@ -1,0 +1,85 @@
+{
+  "main_inventory_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "selected_tool_panel@common.selected_tool_panel": {}
+        }
+      }
+    ]
+  },
+
+  "offhand_grid": {
+    "controls": [
+      {
+        "offhand_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 0 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_shield",
+          "$button_ref": "crafting.no_coalesce_container_slot_button",
+
+          "$focus_override_left_binding_type": "none",
+          "$focus_override_left": "armor_item_feet"
+        }
+      }
+    ]
+  },
+
+  "armor_grid": {
+    "controls": [
+      {
+        "head_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 0 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_helmet",
+          "$button_ref": "crafting.no_coalesce_container_slot_button",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "armor_item_head",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "crafting_input_top_left"
+        }
+      },
+      {
+        "chest_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 1 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_chest",
+          "$button_ref": "crafting.no_coalesce_container_slot_button",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "armor_item_chest",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "crafting_input_top_left"
+        }
+      },
+      {
+        "legs_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 2 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_legs",
+          "$button_ref": "crafting.no_coalesce_container_slot_button",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "armor_item_legs",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "crafting_input_mid_left"
+        }
+      },
+      {
+        "feet_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 3 ],
+          "$cell_overlay_ref": "crafting.armor_image_feet",
+          "$button_ref": "crafting.no_coalesce_container_slot_button",
+
+          "$focus_id_binding_type": "none",
+          "$focus_id": "armor_item_feet",
+
+          "$focus_override_right_binding_type": "none",
+          "$focus_override_right": "offhand_items0"
+        }
+      }
+    ]
+  }
+}

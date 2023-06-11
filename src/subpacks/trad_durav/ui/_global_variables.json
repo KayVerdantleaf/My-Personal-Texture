@@ -1,0 +1,74 @@
+{
+
+  // Since Mojang doesn't know how to properly update their game,
+  // I am including easily modifiable item IDs when they
+  // inevitably break in the next update.
+
+  // Entries marked with // <----- are likely to break every update.
+
+  "$minecraft:bow": 300,
+  "$minecraft:carrot_on_a_stick": 507, // <-----
+  "$minecraft:chainmail_boots": 342,
+  "$minecraft:chainmail_chestplate": 340,
+  "$minecraft:chainmail_helmet": 339,
+  "$minecraft:chainmail_leggings": 341,
+  "$minecraft:crossbow": 565, // <-----
+  "$minecraft:diamond_axe": 319,
+  "$minecraft:diamond_boots": 350,
+  "$minecraft:diamond_chestplate": 348,
+  "$minecraft:diamond_helmet": 347,
+  "$minecraft:diamond_hoe": 332,
+  "$minecraft:diamond_leggings": 349,
+  "$minecraft:diamond_pickaxe": 318,
+  "$minecraft:diamond_shovel": 317,
+  "$minecraft:diamond_sword": 316,
+  "$minecraft:elytra": 554, // <-----
+  "$minecraft:fishing_rod": 390,
+  "$minecraft:flint_and_steel": 299,
+  "$minecraft:golden_axe": 325,
+  "$minecraft:golden_boots": 354,
+  "$minecraft:golden_chestplate": 352,
+  "$minecraft:golden_helmet": 351,
+  "$minecraft:golden_hoe": 333,
+  "$minecraft:golden_leggings": 353,
+  "$minecraft:golden_pickaxe": 324,
+  "$minecraft:golden_shovel": 323,
+  "$minecraft:golden_sword": 322,
+  "$minecraft:iron_axe": 298,
+  "$minecraft:iron_boots": 346,
+  "$minecraft:iron_chestplate": 344,
+  "$minecraft:iron_helmet": 343,
+  "$minecraft:iron_hoe": 331,
+  "$minecraft:iron_leggings": 345,
+  "$minecraft:iron_pickaxe": 297,
+  "$minecraft:iron_shovel": 296,
+  "$minecraft:iron_sword": 307,
+  "$minecraft:leather_boots": 338,
+  "$minecraft:leather_chestplate": 336,
+  "$minecraft:leather_helmet": 335,
+  "$minecraft:leather_leggings": 337,
+  "$minecraft:netherite_axe": 595, // <-----
+  "$minecraft:netherite_boots": 600, // <-----
+  "$minecraft:netherite_chestplate": 598, // <-----
+  "$minecraft:netherite_helmet": 597, // <-----
+  "$minecraft:netherite_hoe": 596, // <-----
+  "$minecraft:netherite_leggings": 599, // <-----
+  "$minecraft:netherite_pickaxe": 594, // <-----
+  "$minecraft:netherite_shovel": 593, // <-----
+  "$minecraft:netherite_sword": 592, // <-----
+  "$minecraft:shears": 419,
+  "$minecraft:shield": 355,
+  "$minecraft:stone_axe": 315,
+  "$minecraft:stone_hoe": 330,
+  "$minecraft:stone_pickaxe": 314,
+  "$minecraft:stone_shovel": 313,
+  "$minecraft:stone_sword": 312,
+  "$minecraft:trident": 536, // <-----
+  "$minecraft:turtle_helmet": 563, // <-----
+  "$minecraft:warped_fungus_on_a_stick": 606, // <-----
+  "$minecraft:wooden_axe": 311,
+  "$minecraft:wooden_hoe": 329,
+  "$minecraft:wooden_pickaxe": 310,
+  "$minecraft:wooden_shovel": 309,
+  "$minecraft:wooden_sword": 308
+}

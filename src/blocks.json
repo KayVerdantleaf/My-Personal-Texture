@@ -1,0 +1,103 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "frame": {
+        "blockshape": "invisible",
+        "textures": "itemframe_background",
+        "sound": "itemframe"
+    },
+    "hopper": {
+        "textures": {
+            "up": "hopper_up",
+            "down": "hopper_down",
+            "north": "hopper_north_side",
+            "south": "hopper_south_side",
+            "west": "hopper_west_side",
+            "east": "hopper_east_side"
+        },
+        "sound": "metal"
+    },
+    "soul_campfire": {
+        "sound": "stem",
+        "textures": {
+            "down": "soul_campfire_log",
+            "side": "soul_campfire_log_lit",
+            "up": "soul_campfire_fire"
+        }
+    },
+    "waterlily": {
+        "blockshape": "lectern",
+        "textures": {
+            "down": "build_deny",
+            "east": "waterlily",
+            "north": "build_allow",
+            "south": "build_deny",
+            "up": "build_deny",
+            "west": "build_deny"
+        }
+    },
+    "end_stone": {
+        "sound": "stone",
+        "textures": "end_stone",
+        "carried_textures": "end_stone",
+        "isotropic": true
+    },
+    "netherrack": {
+        "textures": "netherrack_new",
+        "sound": "stone",
+        "carried_textures": "netherrack",
+        "isotropic": true
+    },
+
+    "sand": {
+        "sound": "gravel",
+        "textures": "sand_new",
+        "carried_textures": "sand",
+        "isotropic": true
+    },
+    "basalt": {
+        "sound": "basalt",
+        "isotropic": {
+            "up": true,
+            "down": true,
+            "side": false,
+            "north": false,
+            "south": false,
+            "west": false,
+            "east": false
+        },
+        "carried_textures": {
+            "up": "basalt_top",
+            "down": "basalt_top",
+            "side": "basalt_side"
+        },
+        "textures": {
+            "up": "basalt_top_new",
+            "down": "basalt_top_new",
+            "side": "basalt_side_new"
+        }
+    },
+    "mossy_cobblestone": {
+        "sound": "stone",
+        "isotropic": true,
+        "textures": "mossy_cobblestone_new",
+        "carried_textures": "cobblestone_mossy"
+    },
+    "podzol": {
+        "sound": "grass",
+        "isotropic": true,
+        "carried_textures": {
+            "up": "dirt_podzol_top",
+            "down": "dirt",
+            "side": "dirt_podzol_side"
+        },
+        "textures": {
+            "up": "podzol_top_new",
+            "side": "dirt_podzol_side",
+            "down": "dirt_new"
+        }
+    }
+}

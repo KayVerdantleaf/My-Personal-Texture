@@ -1,0 +1,55 @@
+{
+  "namespace": "brewing_stand",
+
+  "brewing_modifiers":{
+    "type": "image",
+    "layer": 3,
+    "texture": "textures/ui/brewing_modifiers",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ -67, 12 ],
+    "size": [ 33, 36 ]
+  },
+
+  "brewing_stand_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "selected_tool_panel@common.selected_tool_panel": {}
+        }
+      }
+    ]
+  },
+
+  "brewing_ingredients":{
+    "type": "image",
+    "layer": 3,
+    "texture": "textures/ui/brewing_ingredients",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 59, 3 ],
+    "size": [ 50, 72 ]
+  },
+
+  "brewing_stand_pictogram": {
+    "type": "panel",
+    "size": [ "40%", "80%" ],
+    "controls": [
+      { "brewing_input_slot@brewing_stand.brewing_input_slot": { } },
+      { "brewing_output_slots@brewing_stand.brewing_output_slots": { } },
+      { "brewing_fuel_slot@brewing_stand.brewing_fuel_slot": { } },
+      { "brewing_arrow_empty_image@brewing_stand.brewing_arrow_empty_image": { } },
+      { "brewing_arrow_full_image@brewing_stand.brewing_arrow_full_image": { } },
+      { "brewing_fuel_bar_empty_image@brewing_stand.brewing_fuel_bar_empty_image": { } },
+      { "brewing_fuel_bar_full_image@brewing_stand.brewing_fuel_bar_full_image": { } },
+      { "bubbles_empty_image@brewing_stand.bubbles_empty_image": { } },
+      { "bubbles_full_image@brewing_stand.bubbles_full_image": { } },
+      { "brewing_fuel_pipes@brewing_stand.brewing_fuel_pipes": { } },
+      { "brewing_pipes@brewing_stand.brewing_pipes": { } },
+      { "brewing_modifiers@brewing_stand.brewing_modifiers": { } },
+      { "brewing_ingredients@brewing_stand.brewing_ingredients": { } }
+    ]
+  }
+}

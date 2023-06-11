@@ -1,0 +1,51 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "minecraft:witch",
+            "min_engine_version": "1.8.0",
+            "materials": {
+                "default": "witch"
+            },
+            "textures": {
+                "default": "textures/entity/witch/witch0",
+                "default2": "textures/entity/witch/witch2",
+                "default3": "textures/entity/witch/witch3",
+                "default4": "textures/entity/witch/witch4",
+                "default5": "textures/entity/witch/witch5"
+            },
+            "geometry": {
+                "default": "geometry.villager.witch.v1.8"
+            },
+            "scripts": {
+                "scale": "0.9375*(0.95+0.1*variable.Nvar)",
+                "pre_animation": [
+                    "variable.Nvar =(variable.Nvar ?? Math.random(-1,1));",
+                    "variable.Avar = (variable.Avar ?? Math.random(-20,20));",
+                    "variable.Xvar = (variable.Xvar ?? Math.random(0,999));"
+                ]
+            },
+            "animations": {
+                "villager_general": "animation.villager.general",
+                "look_at_target": "animation.common.look_at_target",
+                "move": "animation.villager.move",
+                "general": "animation.witch.general"
+            },
+            "animation_controllers": [
+                {
+                    "general": "controller.animation.witch.general"
+                },
+                {
+                    "move": "controller.animation.villager.move"
+                }
+            ],
+            "render_controllers": [
+                "controller.render.witch"
+            ],
+            "spawn_egg": {
+                "texture": "spawn_egg",
+                "texture_index": 17
+            }
+        }
+    }
+}

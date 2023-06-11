@@ -1,0 +1,42 @@
+{
+  "armor_grid/helmet_slot_grid": {
+    "controls": [
+      {
+        "head_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 0 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_helmet"
+        }
+      }
+    ]
+  },
+  "armor_grid/chestplate_slot_grid": {
+    "controls": [
+      {
+        "chest_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 1 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_chest"
+        }
+      }
+    ]
+  },
+  "armor_grid/leggings_slot_grid": {
+    "controls": [
+      {
+        "legs_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 2 ],
+          "$cell_overlay_ref": "crafting.armor_overlay_legs"
+        }
+      }
+    ]
+  },
+  "armor_grid/boots_slot_grid": {
+    "controls": [
+      {
+        "feet_grid_item@crafting.armor_container_item": {
+          "grid_position": [ 0, 3 ],
+          "$cell_overlay_ref": "crafting.armor_image_feet"
+        }
+      }
+    ]
+  }
+}

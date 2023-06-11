@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.iron_golem": {
+      "arrays": {
+        "textures": {
+          "Array.crackiness": [
+            "texture.highly_cracked",
+            "texture.medium_cracked",
+            "texture.low_cracked",
+            "texture.default"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.crackiness[variable.healthvar]"
+      ]
+    }
+  }
+}
