@@ -5,7 +5,7 @@
         0
     ],
     "frame": {
-        "blockshape": "invisible",
+        "blockshape": "frame",
         "textures": "itemframe_background",
         "sound": "itemframe"
     },
