@@ -4,14 +4,14 @@
         "description": "Compilado Por KayGreenleaf",
         "name": "My Personal Texture",
         "uuid": "41009d73-443f-4e82-ab01-9025aa709aa1",
-        "version": [2, 2, 2],
+        "version": [2, 3, 0],
         "min_engine_version": [1, 16, 100]
     },
     "modules": [{
         "description": "Compilado Por KayGreenleaf",
         "type": "resources",
         "uuid": "07fad922-76e0-4645-8588-4f7f291a9fe3",
-        "version": [2, 2, 2]
+        "version": [2, 3, 0]
     }],
         "subpacks": [{
             "folder_name": "trad_dur",
