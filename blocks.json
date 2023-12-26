@@ -85,19 +85,4 @@
         "isotropic": true,
         "textures": "mossy_cobblestone_new",
         "carried_textures": "cobblestone_mossy"
-    },
-    "podzol": {
-        "sound": "grass",
-        "isotropic": true,
-        "carried_textures": {
-            "up": "dirt_podzol_top",
-            "down": "dirt",
-            "side": "dirt_podzol_side"
-        },
-        "textures": {
-            "up": "podzol_top_new",
-            "side": "dirt_podzol_side",
-            "down": "dirt_new"
-        }
     }
-}
