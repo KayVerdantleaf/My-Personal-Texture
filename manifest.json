@@ -12,5 +12,16 @@
         "type": "resources",
         "uuid": "07fad922-76e0-4645-8588-4f7f291a9fe3",
         "version": [2, 2, 2]
-    }]
+    }],
+        "subpacks": [{
+            "folder_name": "trad_dur",
+            "name": "§9Durabilidade e Comida Simples",
+            "memory_tier": 2
+        },
+        {
+            "folder_name": "trad_durav",
+            "name": "§fDurabilidade Avançada",
+            "memory_tier": 3
+        }
+     ]
 }
